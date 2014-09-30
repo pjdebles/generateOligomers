@@ -30,6 +30,7 @@ if(!defined $ktuple) {
     print STDERR "===================\n";
     print STDERR "Error: Input of the length of the requested oligomers is required!\n";
     print STDERR "Usage: $0 -k oligomer_length\n";
+    exit;
 }
 
 my @oligomers = generateOligomers($ktuple);
