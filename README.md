@@ -1,0 +1,1 @@
+generateOligomers is a tool to generate all possible oligomers of a specified length using the DNA alphabet.
